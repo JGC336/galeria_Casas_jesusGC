@@ -1,0 +1,76 @@
+    .max {
+    width: 600px;
+    height: 500px;
+    border: solid 1px black;
+    position: absolute;
+    top: 500px; 
+    left: 0px;
+    margin-top: -525px;
+    margin-left: -400px;
+    display:fixed ;
+    }
+    .min {
+    list-style-type: none;
+    margin: 0 0 5px 10px; 
+    padding: 0px; 
+    }
+    li .min {
+    width: 200px;
+    height: 130px;
+    padding: 10px 30px 5px 25px;
+    list-style-type: none;
+}
+    li .max{
+    visibility: hidden;
+    position: absolute;
+    top: 0px; 
+    left: 200px; 
+    }
+    ul{
+        list-style: none;
+    }
+    a:hover .max  {
+    visibility: visible;
+    }
+    #contenedor{
+        position: absolute;
+        width: 1350px;
+        height: 720px;
+        background-color: white;
+        left: 0px;
+        top: 0px;
+    }
+    .galeria{
+        position: absolute;
+        top: 565px;
+        left: 300px;
+        
+    }
+    .galeria1{
+        position: absolute;
+        top:  565px;
+        left: 0px;
+        
+    }
+    .galeria2{
+        position:absolute;
+        top:  565px;
+        left: 590px;
+    }
+    .galeria3{
+        position:absolute;
+        top:  565px;
+        left: 890px;
+    }
+     
+   .catalogo{
+    position: absolute;
+    left:90px;
+    top:-20px;
+   
+   }
+   a:hover .min{
+    position: absolute;
+    top: -30px;
+   }
+
